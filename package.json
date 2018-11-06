@@ -34,7 +34,7 @@
     "less-loader": "^4.1.0",
     "node-sass": "^4.10.0",
     "postcss-loader": "^3.0.0",
-    "react-hot-loader": "^4.3.12",
+    "react-hot-loader": "^4.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "url-loader": "^1.1.2",
@@ -44,7 +44,13 @@
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
+    "antd": "^3.10.4",
+    "axios": "^0.18.0",
     "react": "^16.6.0",
-    "react-dom": "^16.6.0"
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   }
 }

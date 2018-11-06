@@ -1,8 +1,8 @@
 /*
 * @Author: 12574
 * @Date:   2018-11-03 16:44:08
-* @Last Modified by:   12574
-* @Last Modified time: 2018-11-05 20:33:48
+* @Last Modified by:   zhang
+* @Last Modified time: 2018-11-06 14:41:25
 */
 
 const path = require('path');
@@ -14,7 +14,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin') //引入分离�
 module.exports = {
     entry: {
         index: path.join(__dirname,'src/index.js'),
-        child: path.join(__dirname,'src/child.js')
+        // child: path.join(__dirname,'src/child.js')
     },
     output: {
         path: path.join(__dirname, './dist'),
